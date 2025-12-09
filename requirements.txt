@@ -1,0 +1,6 @@
+python --version
+
+python -m venv venv
+
+venv\Scripts\activate
+pip install pandas matplotlib plotly geopandas folium geoip2 ipwhois python-whois openpyxl
