@@ -1,6 +1,14 @@
-python --version
-
-python -m venv venv
-
-venv\Scripts\activate
-pip install pandas matplotlib plotly geopandas folium geoip2 ipwhois python-whois openpyxl
+pandas>=2.1.0
+matplotlib>=3.8.0
+plotly>=5.18.0
+geopandas>=0.14.0
+folium>=0.15.0
+geoip2>=4.8.0
+ipwhois>=1.2.0
+python-whois>=0.9.3
+openpyxl>=3.1.2
+requests>=2.31.0
+maxminddb>=2.5.2
+shapely>=2.0.1
+pyproj>=3.6.1
+rtree>=1.1.0
